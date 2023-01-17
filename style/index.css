@@ -1,0 +1,49 @@
+/*variáveis*/
+:root{
+    --laranja: #ff7e14;
+    --preta: #141414;
+}
+
+*{
+    background-color: var(--preta);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+
+body{
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+header .container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--laranja);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: var(--laranja);
+}
+
+header.google {
+    align-content:flex-start;
+    height: 100px;
+    width: 100px;
+}
