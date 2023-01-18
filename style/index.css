@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500&display=swap');
 /*variáveis*/
 :root{
     --laranja: #ff7e14;
@@ -48,8 +49,10 @@ header.google {
     width: 100px;
 }
 
-div h4 {
+div h3 {
+    font-family: 'Alegreya', serif;
     font-style: bold;
+    font-size: 25px;
     color: var(--laranja);
 }
 
@@ -145,6 +148,7 @@ nav li, nav a {
 .footer-col .medias-socias{
     margin-top: 30px;
 }
+
 .footer-col .medias-socias a{
     display: inline-flex;
     align-items: center;
@@ -158,13 +162,14 @@ nav li, nav a {
     border: 1px solid white;
     transition: all 0.5s ease;
 }
-.footer-col .medias-socias a i{
-    font-size: 20px;
-}
 
 .footer-col .medias-socias a:hover{
     color: var(--laranja);
     background-color: white;
+}
+
+.medias-socias a {
+    font-size: 20px;
 }
 
 /* Responsivo */
